@@ -8,7 +8,7 @@ def remove_all_after(numbers, n):
 
         if n in numbers:
             result = []
-            ind = numbers.index(n)
+            ind = numbers.index(n) + 1
             result = numbers[:ind]
             return result 
 
